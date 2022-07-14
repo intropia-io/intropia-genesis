@@ -13,13 +13,16 @@ hr {
 }
 html {
   background: #060a1b;
-  background: url("../public/bg.jpg") no-repeat bottom;
+  background: url("../public/bg.webp") no-repeat bottom;
   background-size: cover;
   min-height: 100vh;
   height: 100%;
 }
 body {
   width: 100%;
+  animation: fadeInAnimation ease-in 250ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   height: 100%;
   min-height: 100vh;
   font-weight: 300;
@@ -74,4 +77,13 @@ h4,
 h5,
 h6 {
   font-family: "JetBrains Mono", monospace;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
