@@ -2,6 +2,7 @@ import Ticker from "react-ticker";
 
 const TickerText = () => (
   <div
+    className="whitespace-nowrap"
     style={{
       padding: "10px 0",
       fontSize: "16px",
@@ -13,17 +14,17 @@ const TickerText = () => (
       {({ index }) => (
         <>
           <span
-            className="rounded bg-white inline-block"
+            className="rounded bg-white inline-block whitespace-nowrap"
             style={{ width: "6px", height: "6px", marginTop: "-2px" }}
           />
-          <span className="pl-5 pr-5">
+          <span className="pl-5 pr-5 whitespace-nowrap">
             only <i className="font-semibold">contributing</i>
           </span>
           <span
-            className="rounded bg-white inline-block"
+            className="rounded bg-white inline-block whitespace-nowrap"
             style={{ width: "6px", height: "6px" }}
           />
-          <span className="pl-5 pr-5">
+          <span className="pl-5 pr-5 whitespace-nowrap">
             you <i className="font-semibold">can’t buy</i> your way into this
             community
           </span>
