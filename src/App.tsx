@@ -25,11 +25,15 @@ function App() {
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={800}
+            glareEnable={true}
+            glarePosition="bottom"
+            glareBorderRadius="30px"
+            glareMaxOpacity={0.45}
             transitionSpeed={1500}
             gyroscope={true}
             style={{
-              height: 400,
-              width: 304,
+              height: 375,
+              width: 252,
               background: "url(/card.png) center no-repeat",
               transformStyle: "preserve-3d",
             }}
