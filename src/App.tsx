@@ -6,9 +6,9 @@ import TickerText from "./components/ticker-text/ticker-text";
 function App() {
   return (
     <div className="App">
-      <div className="flex flex-col h-screen flex-1">
+      <div className="flex flex-col h-screen flex-1 ">
         <TickerText />
-        <div className="container m-auto text-center flex flex-col items-center">
+        <div className="container m-auto text-center flex flex-col items-center pl-4 pr-4 ">
           <div className="pt-8 flex flex-col items-center">
             <img width={130} src="/logo.svg" alt="logo" />
             <a
@@ -40,10 +40,10 @@ function App() {
           >
             <img className="inner-element" src="/gen-logo.png" alt="gen logo" />
           </Tilt>
-          <h1 className="text-6xl font-extrabold pb-4 pt-6">
+          <h1 className="font-extrabold pb-4 pt-6 text-4xl md:text-6xl">
             TR3BUTOR GENESIS NFTs
           </h1>
-          <p>
+          <p className="text-base md:text-xl">
             Join the community of innovators, builders and talents
             <br />
             shaping the future of civilization
