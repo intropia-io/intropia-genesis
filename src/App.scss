@@ -1,0 +1,33 @@
+.buttons {
+  width: 340px;
+  button {
+    background: linear-gradient(
+      180deg,
+      #04befe 0%,
+      #00b1f9 14.29%,
+      #00a4f4 28.57%,
+      #0097ee 42.86%,
+      #008ae7 57.14%,
+      #007cdf 71.43%,
+      #066ed6 85.71%,
+      #2660cb 100%
+    );
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .flex button {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 15px 20px;
+    font-size: 12px;
+  }
+}
