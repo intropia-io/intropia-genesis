@@ -13,17 +13,21 @@ const TickerText = () => (
     <Ticker>
       {({ index }) => (
         <>
-          <span
-            className="rounded bg-white inline-block whitespace-nowrap"
-            style={{ width: "6px", height: "6px", marginTop: "-2px" }}
-          />
+          <span className="relative">
+            <div
+              className="rounded bg-white inline-block whitespace-nowrap absolute mt-3"
+              style={{ width: "6px", height: "6px" }}
+            />
+          </span>
           <span className="pl-5 pr-5 whitespace-nowrap">
             only <i className="font-semibold">contributing</i>
           </span>
-          <span
-            className="rounded bg-white inline-block whitespace-nowrap"
-            style={{ width: "6px", height: "6px" }}
-          />
+          <span className="relative">
+            <div
+              className="rounded bg-white inline-block whitespace-nowrap absolute mt-3"
+              style={{ width: "6px", height: "6px" }}
+            />
+          </span>
           <span className="pl-5 pr-5 whitespace-nowrap">
             you <i className="font-semibold">can’t buy</i> your way into this
             community

@@ -44,8 +44,7 @@ function App() {
             TR3BUTOR GENESIS NFTs
           </h1>
           <p className="text-base md:text-xl">
-            Join the community of innovators, builders and talents
-            <br />
+            Join the community of innovators, builders and talents <br />
             shaping the future of civilization
           </p>
           <div className="buttons pt-8">
