@@ -56,9 +56,9 @@ function App() {
               prove your worth to mint for free
             </button>
             <div className="flex gap-5 pt-5">
-              {/*<button onClick={()=> window.open("https://bit.ly/3aEJ68w", "_blank")} className="rounded-md flex justify-center gap-3">
+              <button onClick={()=> window.open("https://medium.com/@tr3butor.io/b4c8a1ce4c83", "_blank")} className="rounded-md flex justify-center gap-3">
                 <img src="/Medium.svg" alt="crystal" /> announcement
-          </button>*/}
+          </button>
               <button
                 onClick={() =>
                   window.open("https://discord.gg/tr3butor", "_blank")
