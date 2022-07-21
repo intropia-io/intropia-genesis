@@ -41,10 +41,10 @@ function App() {
             <img className="inner-element" src="/gen-logo.png" alt="gen logo" />
           </Tilt>
           <h1 className="font-extrabold pb-4 pt-6 text-4xl md:text-6xl">
-            TR3BUTOR GENESIS NFTs
+            TR3BUTOR GENESIS NFT
           </h1>
           <p className="text-base md:text-xl">
-            Join the community of innovators, builders and talents <br />
+            Join the community of innovators, builders and connectors <br />
             shaping the future of civilization
           </p>
           <div className="buttons pt-8">
