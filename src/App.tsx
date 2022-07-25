@@ -41,32 +41,43 @@ function App() {
             <img className="inner-element" src="/gen-logo.png" alt="gen logo" />
           </Tilt>
           <h1 className="font-extrabold pb-4 pt-6 text-4xl md:text-6xl">
-            TR3BUTOR<br className="md:hidden"/> GENESIS NFT
+            TR3BUTOR
+            <br className="md:hidden" /> GENESIS NFT
           </h1>
           <p className="text-base md:text-xl">
             Join the community of innovators, builders and connectors <br />
             shaping the future of civilization
           </p>
           <div className="buttons pt-8">
-            <button
-              onClick={() => window.open("https://bit.ly/3aEJ68w", "_blank")}
+            <a
+              id="genesis-landing-cta"
+              target={"_blank"}
+              rel="noreferrer"
+              href="https://bit.ly/3aEJ68w"
               className="rounded-md flex justify-center gap-3"
             >
               <img src="/Crystal.svg" alt="crystal" />
               prove your worth to mint for free
-            </button>
+            </a>
             <div className="flex gap-5 pt-5">
-              <button onClick={()=> window.open("https://medium.com/@tr3butor.io/b4c8a1ce4c83", "_blank")} className="rounded-md flex justify-center gap-3">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                id="genesis-landing-announce"
+                href="https://medium.com/@tr3butor.io/b4c8a1ce4c83"
+                className="rounded-md flex justify-center gap-3"
+              >
                 <img src="/Medium.svg" alt="crystal" /> announcement
-          </button>
-              <button
-                onClick={() =>
-                  window.open("https://discord.gg/tr3butor", "_blank")
-                }
+              </a>
+              <a
+                id="genesis-landing-discord"
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://discord.gg/tr3butor"
                 className="rounded-md flex justify-center gap-3"
               >
                 <img src="/Discord.svg" alt="crystal" /> Join discord
-              </button>
+              </a>
             </div>
           </div>
         </div>
