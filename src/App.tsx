@@ -53,12 +53,26 @@ function App() {
               id="genesis-landing-cta"
               target={"_blank"}
               rel="noreferrer"
-              href="https://bit.ly/3aEJ68w"
+              href="https://galxe.com/tr3butor/campaign/GCs49UwH6d"
               className="rounded-md flex justify-center gap-3"
             >
               <img src="/Crystal.svg" alt="crystal" />
-              prove your worth to mint for free
+              mint genesis nft
             </a>
+
+            <div className="flex pt-5">
+              <a
+                id="genesis-landing-cta"
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://bit.ly/3aEJ68w"
+                style={{ padding: "20px", fontSize: "14px" }}
+                className="rounded-md flex justify-center gap-3"
+              >
+                <img src="/DetailsText.svg" alt="crystal" />
+                prove your worth to mint for free
+              </a>
+            </div>
             <div className="flex gap-5 pt-5">
               <a
                 target={"_blank"}
