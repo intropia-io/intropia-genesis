@@ -50,7 +50,7 @@ function App() {
           </p>
           <div className="buttons pt-8">
             <a
-              id="genesis-landing-cta"
+              id="genesis-landing-mint"
               target={"_blank"}
               rel="noreferrer"
               href="https://galxe.com/tr3butor/campaign/GCs49UwH6d"
