@@ -53,7 +53,7 @@ function App() {
               id="genesis-landing-mint"
               target={"_blank"}
               rel="noreferrer"
-              href="https://galxe.com/tr3butor/campaign/GCs49UwH6d"
+              href="https://galxe.com/tr3butor/campaign/GCtvJUwXUU"
               className="rounded-md flex justify-center gap-3"
             >
               <img src="/Crystal.svg" alt="crystal" />
