@@ -12,7 +12,7 @@ function App() {
           <div className="pt-8 flex flex-col items-center">
             <img width={130} src="/logo.svg" alt="logo" />
             <a
-              href="https://tr3butor.notion.site/privacy-policy-information-2254728e540d40b982f91157adf82b40#ebab9472c39049ff923ab1665ff6ce5c"
+              href="https://intropia.notion.site/privacy-policy-information-2254728e540d40b982f91157adf82b40#ebab9472c39049ff923ab1665ff6ce5c"
               target="_blank"
               className="opacity-50 text-xs pt-2 pb-4"
               rel="noreferrer"
@@ -65,7 +65,7 @@ function App() {
                 id="genesis-landing-cta"
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://bit.ly/3aEJ68w"
+                href="https://bit.ly/3XVyOnp"
                 style={{ padding: "20px", fontSize: "14px" }}
                 className="rounded-md flex justify-center gap-3"
               >
@@ -78,7 +78,7 @@ function App() {
                 target={"_blank"}
                 rel="noreferrer"
                 id="genesis-landing-announce"
-                href="https://medium.com/@tr3butor.io/b4c8a1ce4c83"
+                href="https://medium.com/@intropia/tr3butor-genesis-nft-kickstarts-community-ownership-access-to-revolutionary-web3-talent-platform-b4c8a1ce4c83"
                 className="rounded-md flex justify-center gap-3"
               >
                 <img src="/Medium.svg" alt="crystal" /> announcement
@@ -87,7 +87,7 @@ function App() {
                 id="genesis-landing-discord"
                 target={"_blank"}
                 rel="noreferrer"
-                href="https://discord.gg/tr3butor"
+                href="https://discord.gg/intropia"
                 className="rounded-md flex justify-center gap-3"
               >
                 <img src="/Discord.svg" alt="crystal" /> Join discord

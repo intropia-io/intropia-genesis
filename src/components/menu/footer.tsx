@@ -8,8 +8,8 @@ export const Footer = () => {
           <LinkUrl
             items={["privacy policy", "terms of service"]}
             links={[
-              "https://tr3butor.notion.site/2254728e540d40b982f91157adf82b40",
-              "https://tr3butor.notion.site/6d643993015c47e9a3e5f8c4ec81777f",
+              "https://intropia.notion.site/2254728e540d40b982f91157adf82b40",
+              "https://intropia.notion.site/6d643993015c47e9a3e5f8c4ec81777f",
             ]}
           />
         </div>
